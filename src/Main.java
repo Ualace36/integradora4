@@ -30,30 +30,30 @@ public class Main {
 
             PreparedStatement addFuncionario = con.prepareStatement(addFuncionarioSql);
             addFuncionario.setInt(1,1);
-            addFuncionario.setString(2,"Lucas");
-            addFuncionario.setString(3,"Pinheiro");
-            addFuncionario.setString(4,"987.658.412-45");
-            addFuncionario.setString(5,"+55 (47) 91454-2548");
+            addFuncionario.setString(2,"Ualace");
+            addFuncionario.setString(3,"Santos");
+            addFuncionario.setString(4,"000.222.111-25");
+            addFuncionario.setString(5,"+55 (73) 98888-7777");
             addFuncionario.executeUpdate();
             addFuncionario.setInt(1,2);
-            addFuncionario.setString(2,"Pedro");
-            addFuncionario.setString(3,"Ferraz");
-            addFuncionario.setString(4,"917.659.354-95");
-            addFuncionario.setString(5,"+55 (58) 93824-2549");
+            addFuncionario.setString(2,"Arthur");
+            addFuncionario.setString(3,"Ito");
+            addFuncionario.setString(4,"735.857.854-45");
+            addFuncionario.setString(5,"+55 (75) 97777-5484");
             addFuncionario.executeUpdate();
             addFuncionario.setInt(1,3);
-            addFuncionario.setString(2,"Lucas");
-            addFuncionario.setString(3,"Palmito");
-            addFuncionario.setString(4,"987.658.412-49");
-            addFuncionario.setString(5,"+55 (47) 98454-2548");
+            addFuncionario.setString(2,"O");
+            addFuncionario.setString(3,"Maskara");
+            addFuncionario.setString(4,"784.987.789-49");
+            addFuncionario.setString(5,"+55 (61) 4574-6548");
             addFuncionario.executeUpdate();
             addFuncionario.setInt(1,4);
 
             try {
-                addFuncionario.setString(2,"Lucas");
-                addFuncionario.setString(3,"Pamilto");
-                addFuncionario.setString(4,"987.658.412-50");
-                addFuncionario.setString(5,"+55 (47) 91454-2598");
+                addFuncionario.setString(2,"Uàlace");
+                addFuncionario.setString(3,"Arthur");
+                addFuncionario.setString(4,"784.987.789-78");
+                addFuncionario.setString(5,"+55 (73) 95555-2788");
                 addFuncionario.executeUpdate();
             }
             catch (SQLException e){
